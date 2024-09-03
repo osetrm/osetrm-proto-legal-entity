@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.osetrm.proto.legalentity.v1";
+option java_outer_classname = "LegalEntityProto";
+
+package osetrm.legalentity.v1;
+
+// ISO 17442 Legal Entity Identifier (LEI)
+message LegalEntityIdentifier {
+  string value = 1;
+}
